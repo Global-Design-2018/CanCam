@@ -1,0 +1,886 @@
+/**/
+
+body {}
+
+.content {
+    width: 100%;
+    style: center;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.syasin {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+.syasin img {
+    max-height: 300px;
+    opacity: 0.1;
+}
+
+.welcome {
+    margin-top: 10%;
+    style:center;
+}
+
+.welcome img {
+    width: 90%;
+}
+
+.page2 {
+    width: 100%;
+}
+
+.page3 {
+    height: 100%;
+    background-color: #b0e0e6;
+}
+
+.page4 {
+    height: 100%;
+    background-color: #ff7f50;
+}
+
+.page5 {
+    height: 100%;
+    width: 100%;
+    background-color: #aed15e;
+}
+
+.page6 {
+    height: 100%;
+    background-color:#f2f2f2;
+}
+
+.pagePadding {
+padding: 10% 10% 10% 10%;
+}
+
+.pageMargin2 {
+    height: 5%;
+}
+
+.log1{
+    position: absolute;
+    top 80%;
+    left: 20%
+    height:20%;
+    width: 20%;
+      background-color: #DDDDDD;
+}
+
+.log2{
+    position: absolute;
+    top 80%;
+    left: 50%
+    height:20%;
+    width: 20%;
+      background-color: #DDDDDD;
+}
+
+
+#third-page {}
+
+.flame {
+    
+}
+
+.flame img {
+    max-width: 100%;
+    max-height: 40%;
+}
+
+.flame3 {
+    margin-bottom: 10px;
+    outline: solid 1px #000fff;
+}
+
+.flame31 {}
+
+.flame311 {
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    outline: solid 1px #9400d3;
+}
+
+.flame32 {
+    height: 100px;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 30px;
+    outline: solid 1px #fdf5e6;
+}
+
+#flame33 {}
+
+.tutorealText {
+    height: 25%;
+    margin-top: 20%;
+    color: #808080;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.tutorealText2 {
+     height: 25%;
+    margin-top: 20%;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.youso {
+    color: #696969;
+}
+
+.tutCul{
+    position: absolute;
+    
+    top:15%;
+    left: 15%;
+    height: 15%;
+    width: 28%;
+     background-color: #DDDDDD;
+        border-radius: 50%;
+}
+
+.tutCul img{
+ 
+   display: block;
+     max-height: 80%;
+  margin: 10% auto;
+}
+
+.tutCulText{
+    position: absolute;
+    top:15%;
+    left: 50%;
+    height: 15%;
+    width: 50%;
+    font-size: 10px;
+    line-height: 1.5em;
+     
+        text-align: left;
+      
+}
+
+.iconEx{
+  
+     font-size: 10px;
+}
+
+p#cul{
+    font-size: 20px;
+}
+
+.tutPhy{
+     position: absolute;
+    top:35%;
+    left: 15%;
+    height: 15%;
+    width: 28%;
+     background-color: #DDDDDD;
+     border-radius: 50%;
+}
+
+.tutPhy img{
+    display: block;
+     max-height: 80%;
+margin: 10% auto;
+    
+}
+.tutPhyText{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    height: 15%;
+    width: 50%;
+    font-size: 10px;
+    line-height: 1.5em;
+      word-break: break-all;
+       text-align: left;
+}
+
+p#phy{
+    font-size: 20px;
+}
+
+.tutEmo{
+     position: absolute;
+    top:55%;
+    left: 15%;
+    height: 15%;
+    width: 28%;
+     background-color: #DDDDDD;
+        border-radius: 50%;
+}
+
+.tutEmo img{
+       display: block;
+      max-height: 80%;
+margin: 10% auto;
+}
+
+.tutEmoText{
+     position: absolute;
+    top:55%;
+    left: 50%;
+    height: 15%;
+    width: 50%;
+    font-size: 10px;
+    line-height: 1.5em;
+      word-break: break-all;
+       text-align: left;
+}
+p#emo{
+    font-size: 20px;
+}
+
+.box {
+    float: left;
+    margin-left: 10%;
+    height: 90px;
+    width: 30%;
+    background-color: #DDDDDD;
+}
+
+.box img {
+    max-height: 90px;
+}
+
+.box2 {
+    float: left;
+    color: #808080;
+    height: 90px;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.box3 {
+    float: left;
+    margin-left: 10%;
+    height: 90px;
+    width: 30%;
+    margin-top: 40px;
+    background-color: #DDDDDD;
+}
+
+.box3 img {
+    max-height: 90px;
+}
+
+.box4 {
+    float: left;
+    height: 90px;
+    width: 50%;
+    color: #808080;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.boxContainer {
+    overflow: hidden;
+}
+
+
+/* clearfix */
+
+.boxContainer:before,
+.boxContainer:after {
+    content: "";
+    display: table;
+}
+
+.boxContainer:after {
+    clear: both;
+}
+
+p#cul {
+    
+      font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+     color: #00008b;
+    border-bottom: solid 2px;
+    
+}
+
+p#phy {
+     font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+    color: #006400;
+    border-bottom: solid 2px;
+}
+
+p#emo {
+    font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+    color: #ff69b4;
+    border-bottom: solid 2px;
+}
+
+
+.main{
+    margin-left: 10%;
+}
+
+
+.buttonTex{
+    position: absolute;
+    top:80%;
+    left: 40%;
+}
+
+input {
+    width: 80%;
+   
+    padding: 0;
+}
+
+select {
+    width: 80%;
+    
+}
+
+p#acs_next_text{
+     position: absolute;
+    top: 72%;
+    left: 15%;
+    width: 70%;
+}
+
+input#acs_next {
+    
+    width: 5%;
+    color: #808080;
+}
+
+
+
+p#checkword {
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    width: 80%;
+    color: #808080;
+}
+
+input#acs_next2 {
+    width: 20px;
+     margin-left: 10%;
+    margin-top: 50px;
+}
+
+#waku1 {
+    position: absolute;
+    top: 0;
+    width: 96%;
+    height: 2%;
+    left: 2%;
+    background-color: #DDDDDD;
+}
+
+#waku2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2%;
+    height: 100%;
+    background-color: #DDDDDD;
+}
+
+
+#waku3 {
+    position: absolute;
+    top: 98%;
+    left: 2%;
+    width: 96%;
+    height: 2%;
+    background-color: #DDDDDD;
+}
+
+#waku4 {
+    position: absolute;
+    top: 0%;
+    left: 98%;
+    width: 2%;
+    height: 100%;
+    background-color: #DDDDDD;
+}
+
+p#time {
+    position: absolute;
+    left: 8%;
+    top: 2%;
+    height: 2.5%;
+    width: 16%;
+    font-size: 15px;
+  
+}
+
+p#time1 {
+    position: absolute;
+   left: 24%;
+    top: 2%;
+    height: 2.5%;
+    width: 20%;
+    vertical-align:text-bottom;
+    font-size: 15px;
+ 
+}
+
+p#location {
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    height: 2.5%;
+    width: 50%;
+    font-size: 15px;
+}
+
+p#nameValue {
+    position: absolute;
+    top: 3.5%;
+    left: 62%;
+    font-size: 10px;
+    bottom: 0;
+    height: 2.5%;
+    width: 20%;
+}
+
+p#sexValue {
+    position: absolute;
+    top: 5.5%;
+    right: 25%;
+    font-size: 10px;
+    bottom: 0;
+    height: 2.5%;
+    width: 5%;
+}
+
+p#countryValue {
+    position: absolute;
+    top: 5.5%;
+    left: 62%;
+    font-size: 10px;
+    bottom: 0;
+    height: 2.5%;
+    width: 5%;
+}
+
+p#ageValue {
+    position: absolute;
+    top: 5.5%;
+    right: 20%;
+    font-size: 10px;
+    bottom: 0;
+    height: 2.5%;
+    width: 5%;
+}
+
+p#dawnload {
+    position: absolute;
+    top: 2%;
+    right: 8%;
+    height: 8%;
+    width: 10%;
+}
+
+p#dawnload img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.pic {
+    position: absolute;
+    width: calc(100vmin - 15vmin);
+    height:  calc(100vmin - 15vmin);
+    margin: 17.5% 7.5%;
+    background-color: #a9a9a9;
+}
+
+#newpic1{
+    position: absolute;
+    top: 11.5%;
+    left: 8%;
+    height: 47%;
+    width: 84%;
+}
+
+#newpic {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#stamp1 {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    height: 12%;
+    width: 28%;
+    
+}
+
+#stamp1 img{
+    max-height: 100%;
+    margin-left: 20%;
+}
+
+#stamp2 {
+    position: absolute;
+    top: 60%;
+    left: 64%;
+    height: 12%;
+    width: 28%;
+   
+}
+
+#stamp2 img{
+    max-height: 100%;
+     margin-left: 20%;
+}
+
+#stamp3 {
+    position: absolute;
+    top: 60%;
+    left: 36%;
+    height: 12%;
+    width: 28%;
+   
+}
+
+#stamp3 img{
+    max-height: 100%;
+  margin-left: 20%;   
+}
+
+#bar1 {
+    position: absolute;
+    top: 72.5%;
+    left: 8%;
+    height: 6%;
+    width: 28%;
+  
+}
+
+#bar2 {
+    position: absolute;
+    top: 72.5%;
+    left: 36%;
+    height: 6%;
+    width: 28%;
+    
+}
+
+#bar3 {
+    position: absolute;
+    top: 72.5%;
+    left: 64%;
+    height: 6%;
+    width: 28%;
+ 
+}
+
+
+#barPostive{
+    position: absolute;
+     top: 72.5%;
+    left: 8%;
+    height: 6%;
+    width: 13%;
+    
+   
+}
+
+#barPositiveText{
+     font-size: 15px;
+    color: #DDDDDD;
+    text-align: center;
+    word-break: break-all;
+}
+
+#barNeutralText{
+     font-size: 15px;
+    color: #a9a9a9;
+    text-align: center;
+    word-break: break-all;
+}
+
+#barNegative{
+     position: absolute;
+     top: 72.5%;
+    right: 8%;
+    height: 6%;
+    width: 15%;
+    
+  
+}
+
+
+#barNegativeText{
+      color:#DDDDDD;
+    word-break: break-all;
+    font-size: 15px;
+    text-align: center;
+}
+
+#area {
+    position: absolute;
+    border:none;
+    padding: 0;
+    top: 79.5%;
+    left: 8%;
+    width: 84%;
+    height: 15%;
+    font-size: 15px;
+    text-align: left;
+}
+
+#camerabutton{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    height: 20%;
+    width: 90%;
+}
+
+#camerabutton img{
+    max-width: 100%;
+}
+
+#gallerybutton{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    height: 20%;
+    width: 90%;
+}
+
+#gallerybutton img{
+    max-width: 100%;
+}
+
+ons-button#login-button {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+ons-button#first-button {
+    width: 80%;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-top: 20%;
+    margin-left: 10%;
+    }
+
+ons-button#push-button2 {
+
+    position: absolute;
+    top: 85%;
+    right: 5%;
+
+    display: inline-block;
+    font-weight: bold;
+    padding: 7px 10px 10px 10px;
+    text-decoration: none;
+    color: #FFF;
+    background: #191970;
+    transition: .4s;
+
+}
+
+
+ons-button#push-button2 >span {
+    border-bottom: solid 2px #FFF;
+}
+
+ons-button#push-button2:hover {
+    background: #91b5fb;
+}
+
+ons-button#push-button3 {
+ 
+    position: absolute;
+    top: 85%;
+    right: 5%;
+
+    display: inline-block;
+    font-weight: bold;
+    padding: 7px 10px 10px 10px;
+    text-decoration: none;
+    color: #FFF;
+    background: #191970;
+    transition: .4s;
+}
+
+ons-button#push-button3 >span {
+    border-bottom: solid 2px #FFF;
+}
+
+ons-button#push-button3:hover {
+    background: #91b5fb;
+}
+
+
+ons-button#push-button4 {
+ 
+    position: absolute;
+    top: 85%;
+    right: 5%;
+
+    display: inline-block;
+    font-weight: bold;
+    padding: 7px 10px 10px 10px;
+    text-decoration: none;
+    color: #FFF;
+    background: #a180dc;
+    transition: .4s;
+}
+
+ons-button#push-button4 >span {
+    border-bottom: solid 2px #FFF;
+}
+
+ons-button#push-button4:hover {
+    background: #91b5fb;
+}
+
+
+
+ons-button#push-button5 {
+ 
+    position: absolute;
+    top: 85%;
+    right: 5%;
+
+    display: inline-block;
+    font-weight: bold;
+    padding: 7px 10px 10px 10px;
+    text-decoration: none;
+    color: #FFF;
+    background: #191970;
+    transition: .4s;
+}
+
+ons-button#push-button5 >span {
+    border-bottom: solid 2px #FFF;
+}
+
+ons-button#push-button5:hover {
+    background: #91b5fb;
+}
+
+ons-button#push-button6 {
+  position: absolute;
+  top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #a9a9a9;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: #808080;
+}
+
+
+.relative {
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.drag-and-drop {
+    position: absolute;
+top:0px;
+left:0px;
+   z-index: 1000;
+}
+.drag {
+    z-index: 1001;
+}
+      #canvas {
+        background: #666;
+      }
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+#bar{
+   position: absolute;
+   top:74.5%;
+   left:24%;
+   width: 65%;
+}
+
+#negative{
+    position: absolute;
+    top:72%;
+    left:5%;
+    font-size: 15px;
+    color: #CCCCCC;
+}
+#positive{
+    position: absolute;
+    top:72%;
+    left:79%;
+    font-size: 15px;
+    color: #CCCCCC;
+}
+
+
+
+ons-carousel-item {
+  display: table;
+  text-align: center;
+}
+
+
+
+
+
+.item-label {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  line-height: 1;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.cover-label {
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  bottom: 10px;
+  color: white;
+}
+
+.maru {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    width: 20%;
+    
+}
+
+.maru img{
+    max-width: 100%;
+}
